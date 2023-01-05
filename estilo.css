@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(imagens/fundoNetflxi.jpg);
+    background-image:cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.logo{
+    color: crimson;
+    height: 80px;
+    font-size: 28px;
+    margin-left: 30px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    }
+    
+    
+.login_corpo{
+    background-color: rgba(0, 0, 0, 0.764);
+    text-align: center;
+    max-width: 300px;
+    height: 550px;
+    margin-left: 50%;
+    padding: 50px;
+    transform: translate(-50%);
+    position: relative;
+    
+}
+
+.login_corpo input{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+    font-weight: 500;;
+    font-size: 15px;
+    
+}
+
+.login_corpo input:hover{
+    background-color: #444;
+}
+
+.login_caixa{
+text-align: left;
+
+}
+
+.caixa_dados{
+margin-bottom: 25px;
+}
+.caixa_dados ::placeholder{
+padding-left: 15px;    
+}
+
+
+h2{
+color: rgb(255, 255, 255);
+font-size: 32px;
+margin-top: 0;
+font-weight: bold;
+}
+
+.suporte,.login_rodape,.termos{
+    color: #8c8c8c;
+    font-size: 13px;
+    
+}
+
+
+
+.enviar button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.enviar button:hover{
+    cursor: pointer;
+}
+
+.suporte{
+    display: flex ;
+    color: #737373;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.suporte input{
+    width: 15px;
+    height: 15px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 45px;
+}
+
+.remember span{
+    padding-left: 2px;
+    height: 15px;
+    }
+
+.ajuda a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.ajuda a:hover{
+    text-decoration: underline;
+}
+
+.termos{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    position: relative;
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #737373;
+    
+}
+.termos a{
+    text-decoration: none;
+}
+.termos a:hover{
+    text-decoration: underline;
+}
+
+.login_rodape{
+    font-size: 15px;
+}
+.login_rodape a{
+    text-decoration: none;
+    color: #fff;
+}
+.login_rodape a:hover{
+    text-decoration: underline;
+}
